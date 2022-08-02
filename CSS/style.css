@@ -1,3 +1,6 @@
+html{
+	scroll-behavior: smooth;
+}
 body{
 	margin: 0px;
 	background:linear-gradient(#038282, #012020) ;
@@ -208,6 +211,7 @@ a{
 .main{
  	box-shadow: 0 6px 10px 0 #4ab4b5, 0 8px 24px 0 #4ab4b5;
 	position: relative;
+	cursor:pointer;
 }
 
 .main:hover .overlay {
@@ -225,7 +229,9 @@ a{
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transition: all 0.6s ease-in-out;
-	text-decoration: none;
+	font-family:sans-serif;
+	font-size: 18px;
+
 }
 .aText:before {
 	content: '';
@@ -338,7 +344,7 @@ footer div{
 #mpbtn:hover{
 	background:linear-gradient(-120deg, #34a853, #fbbc05, #ea4335);
 }
-h3{
+.menubar h3{
 	color: white;
 }
 .map{

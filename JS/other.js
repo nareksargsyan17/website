@@ -1,11 +1,8 @@
-function myFunction() {
-  var x = document.getElementById("join");
-  var c = document.getElementsByTagName('body')[0];
-  c.style.opacity = "90%";
-  x.style.visibility = "visible";
-  x.style.backgroundColor = "azure";
-}
-function xfunc(){
-  document.getElementById("join").style.visibility="hidden";
-  document.getElementsByTagName('body')[0].style.opacity = "100%";
-}
+const join = document.getElementById("join");
+const button = document.getElementById("joinbut");
+const body = document.getElementsByTagName('body')[0];
+const x = document.querySelector(".x")
+let href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkkJnMcZBrdZtjcTmmlkjwQFwcQxPjXhSqDgLGpKXQwggzbqVtmwvJtSqZkfhfhGsmXrxM"
+button.addEventListener("click" , ()=>{
+ n
+})
